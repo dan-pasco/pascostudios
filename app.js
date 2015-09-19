@@ -179,7 +179,7 @@ myApp.factory("newsService", function (){
 			
 		},
 		{
-			imgUrl:"news.png",
+			imgUrl:"update.png",
 			game:"Pinoy Quiz",
 			releaseDate: "May 2014",
 			description: "Major update on gameplay and 300 more questions under development"
