@@ -1,0 +1,21 @@
+	<div id="newsListWrapper" >
+		<form role="form">
+	  <div class="form-group">
+		<input type="text" class="form-control" placeholder="Search here..."
+			ng-model="searchStr">
+	  </div>
+	</form>
+			<div>
+			<ul class="list-unstyled">
+				<li class="book" ng-repeat="news in newss"
+					style="background: white url('imgs/{{news.imgUrl}}') no-repeat">
+					<div class="book-details clearfix">
+						
+						<h2>{{news.game}}</h2>
+						<h3>Dont know</h3>
+						<p>La la lal lalal lalalal lalalal</p>
+						
+					</div>
+				</li>
+			</ul>
+		</div>
