@@ -29,52 +29,51 @@ myApp.factory("bookService", function (){
 		{
 			imgUrl: "fireRescue.png",
 			name: "Fire Rescue 32",
-			price: 205,
-			rating: 4,
-			binding: "Paperback",
-			publisher: "Random House India",
-			releaseDate: "12-08-2014",
-			details: "Linda, in her thirties, begins to question the routine and predictability of her days. In everybodys eyes, she has a perfect life-happy marriage, children and a career. Yet what she feels is an eno... <a href='#'>View More<a>"
+			genre: "  Action/Puzzle",
+			googleLink:"https://play.google.com/store/apps/details?id=org.pascosoft.fireRescue32",
+			appleLink:"https://itunes.apple.com/us/app/firerescue-32/id648048691?ls=1&mt=8",
+			details: "Fire Rescue 32 is a fire fighting game out on the AppStore and Google Play. You play as a fireman that responds to emergencies in Dog City.",
+			fullDetails:"Fire Rescue 32 is a fire fighting game out on the AppStore and Google Play. You play as a fireman that responds to emergencies in Dog City. Brave burning buildings  to rescue trapped puppies while you dodge falling debris and feral crows. Put out fires and become the top firefighter as you level up your rank. Arrive to the Scene with your Fire Engine. Realistic Fire Fighter Sounds.Play as Sparky the Fire Dog"
 		},
 		{
 			imgUrl: "pinoyQuiz.png",
 			name: "Pinoy Quiz Extra",
-			price: 168,
-			rating: 5,
-			binding: "Paperback",
-			publisher: "Scholastic",
-			releaseDate: "01-07-2014",
-			details: "Geronimo Stilton meets outer space in this cosmically fun spin-off series!Meet Geronimo StiltonixHe is a spacemouse - the Geronimo Stilton of a parallel universe! He is captain of the spaceship Mou... View More"
+			genre: "  Quiz/Trivia",
+			googleLink:"https://play.google.com/store/apps/details?id=com.pinoyquizz.dan",
+			appleLink:"https://itunes.apple.com/us/app/pinoy-quiz/id519274684?mt=8",
+			details: "Test your Pinoyness, kakasa ka ba? This App is a Trivia Quiz  about Philippine Pop Culture.",
+			fullDetails:"Test your Pinoyness, kakasa ka ba? This App is a Trivia Quiz  about Philippine Pop Culture. There are 200 questions from different topics ranging from Pinoy TV, Filipino Celebrities, History, OPM , PBA and some odd questions here and there."
+			
 		},
 		{
 			imgUrl: "worldTriviathon.png",
 			name: "World Triviathon",
-			price: 339,
-			rating: 4,
-			binding: "Paperback",
-			publisher: "Hachette India",
-			releaseDate: "01-04-2014",
-			details: "Why would a man escape from prison the day before he's due to be released? Audie Palmer has spent a decade in prison for an armed robbery in which four people died, including two of his gang. Five... View More"
+			genre: "  Quiz/Trivia",
+			googleLink:"https://play.google.com/store/apps/details?id=org.pascosoft.WorldTriviathon",
+			appleLink:"https://itunes.apple.com/us/app/world-triviathon/id591512034?ls=1&amp;mt=8",
+			details: "World Triviathon will test your knowledge on general facts and trivia across all cultures",
+			fullDetails:"World Triviathon will test your knowledge on general facts and trivia across all cultures. There are 3 rounds that will bombard you with a series of questions which becomes harder as you progress. The game is in trivia quizz format"
 		},
 		{
 			imgUrl: "rodentBall.png",
+			imgValue: 0,
+			imgMainUrl:"rodentBallMain.png",
 			name: "Rodent Ball",
-			price: 599,
-			rating: 5,
-			binding: "Hardcover",
-			publisher: "Hodder & Stoughton",
-			releaseDate: "01-08-2014",
-			details: "I knew that if I agreed to write my story, I would have to be completely honest, as thats the way I have always played the game and that would mean talking about a number of things I have not addr... View More"
+			genre: "  Arcade/Puzzle",
+			googleLink:"https://play.google.com/store/apps/details?id=com.dan.RodentBall",
+			appleLink:"https://itunes.apple.com/us/app/rodent-ball-lite/id563977808?mt=8",
+			details: "Aliens are Invading!!! One rodent took the challenge of ridding these foul creatures from our planet",
+			fullDetails:"Aliens are Invading!!! One rodent took the challenge of ridding these foul creatures from our planet. Inspired by classic games such as Breakout and Arkanoid but Rodent Ball adds a twist on the game play. The objective is not to break all bricks but rather to destroy all enemies hiding behind them to win. Special powers are available that will be very useful to clear certain stages in the game."
 		},
 		{
 			imgUrl: "magicPearl.png",
 			name: "Magic Pearl",
-			price: 227,
-			rating: 4.5,
-			binding: "Paperback",
-			publisher: "Penguin Books Ltd",
-			releaseDate: "25-01-2013",
-			details: "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a gorgeous plot twist n... View More"
+			imgMainUrl:"magicPearlMain.png",
+			genre:"  Fortune Telling/Magic 8 Ball",
+			googleLink:"https://play.google.com/store/apps/details?id=com.kamada.dan&amp;feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5rYW1hZGEuZGFuIl0.",
+			appleLink:"",
+			details: "This application is inspired by pre-History Shamans from the Philippines that used Pearls as a means to predict the future",
+			fullDetails:"This application is inspired by pre-History Shamans from the Philippines that used Pearls as a means to predict the future.It was said that  by reading the hues of light reflected by pearls can give certain people clairvoyance.In this Application you can ask the Pearl your question and it will give you random suggestions. You have an option for the responses to be in Filipino / Tagalog, English, or you can Customize your own."
 		},
 		
 	];
@@ -135,7 +134,7 @@ myApp.factory("newsService", function (){
 			imgUrl:"news.png",
 			game:"Cold War Collective",
 			releaseDate: "September 2015",
-			description: "New Application (Beer to Beer) on the pipeline "
+			description: "New Application (Beer to Beer Wellington) on the pipeline "
 			
 		
 			
